@@ -1,0 +1,145 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+  padding: 50px;
+  background-color: rgba(255, 243, 210, 0.5);
+}
+
+.img-circle {
+  border-radius: 50%;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.margin-auto {
+  margin: auto;
+}
+
+.color-red {
+  color: #A10000;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+
+a:hover {
+  color: #A10000;
+  text-decoration: underline;
+}
+
+.main_title {
+  font-size: 1.5em;
+}
+
+nav {
+  font-size: 20px;
+}
+
+nav a{
+  padding: 15px;
+  display: inline-block;
+  text-decoration: none;
+  font-weight: normal;
+}
+
+nav a:hover {
+  color: #A10000;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+footer {
+  margin-top: 30px;
+  padding: 10px;
+}
+
+footer img {
+  width: 40px;
+}
+
+footer img:hover {
+  transform: scale(1.1);
+}
+
+.logo {
+  width: 10%;
+}
+
+.text_introduction {
+  line-height: 25px;
+  width: 60%;
+  padding : 15px;
+  background: rgba(255, 255, 255, 0.5);
+  border-radius: 30px;
+}
+
+@media (max-width: 1700px) {
+  .logo {
+    width: 20%;
+  }
+}
+
+@media (max-width: 960px) {
+  .logo {
+    width: 30%;
+  }
+  .text_introduction {
+    width: 70%;
+  }
+}
+
+@media (max-width: 600px) {
+  .logo {
+    width: 40%;
+  }
+  .text_introduction {
+    width: 80%;
+  }
+}
+
+@media (max-width: 400px) {
+  .logo {
+    width: 50%;
+  }
+  .text_introduction {
+    width: 90%;
+  }
+}
+
+/* .form {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  gap: 20px;
+  width: 50%;
+}
+
+.form div {
+  display: flex;
+  flex-direction: column;
+}
+
+.form h2 {
+  text-align: center;
+}
+
+.cta_form {
+  width: 50%;
+  margin: auto;
+}
+
+input[type=text] {
+  width: 50%;
+}
+
+input[type=email] {
+  width: 50%;
+}
+
+textarea {
+  height: 60px;
+} */
